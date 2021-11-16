@@ -1,0 +1,12 @@
+.hangs {
+    list-style-type: none;
+}
+
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    text-align: center;
+  
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	Hello world
+
+	<form onsubmit="return hangman();" id="hangman">
+		<input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+      <input id="guess" name="guess" type="submit" value="Guess" />
+      <button id="restart" name="restart" type="reset">Restart</button>
+    </form>
+    <ul id="letters" style="list-style: none;" ></ul>
+    <p id="man"></p>
+    <p id="output" class="output"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
